@@ -19,6 +19,8 @@ from nltk.tokenize import RegexpTokenizer
 from nltk import PorterStemmer, WordNetLemmatizer
 from functions import *
 import pickle
+import nltk
+nltk.download('wordnet')
 
 # Page title
 
