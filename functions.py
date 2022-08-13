@@ -11,6 +11,8 @@ from sklearn.preprocessing import LabelEncoder
 from nltk.tokenize import RegexpTokenizer
 from nltk import PorterStemmer, WordNetLemmatizer
 import pickle
+import nltk
+nltk.download('wordnet')
 
 # preprocessing functions
 
@@ -93,6 +95,8 @@ def preprocess(text):
 
 # Function for custom input prediction
 def custom_input_prediction(text):
+    import nltk
+    nltk.download('omw-1.4')
     text = pd.Series(text)
     text = preprocess(text)
     text = [text[0],]
