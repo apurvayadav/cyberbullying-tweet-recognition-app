@@ -15,14 +15,14 @@ This app predicts the nature of the tweet into 6 Categories.
 **Streamlit:** Used Streamlit to create simple webapp to make the model interactive.
 
 ## Methodology
-* Downloaded the data from kaggle. [data](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
-* Performed some Exploratory Data Analysis to get the overview of data. [initial_modelling.ipynb](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app/blob/main/initial_modelling.ipynb)
+* Downloaded the data from kaggle. [(data)](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
+* Performed some Exploratory Data Analysis to get the overview of data. [(initial_modelling.ipynb)](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app/blob/main/initial_modelling.ipynb)
 *  Created a Word Cloud from the data.
 *  Performed the necessary steps for textual analysis.
     * Removing Stopwords, puctuations, URLs, etc
     * Performed Stemming and Lemmatization.
 * Automated the process of preprocessing by creating functions. Which would be helpful in predicting Custom Outputs.
-* Created Illustrations for the webapp from [Canva](https://www.canva.com/). [images](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app/tree/main/images)
+* Created Illustrations for the webapp from [Canva](https://www.canva.com/). [(Images)](https://github.com/apurvayadav/cyberbullying-tweet-recognition-app/tree/main/images)
 * Deployed the webapp on streamlit.
 
 ## References
