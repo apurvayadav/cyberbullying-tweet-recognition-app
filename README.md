@@ -10,9 +10,9 @@ This app predicts the nature of the tweet into 6 Categories.
 * Other Cyberbullying
 * Not Cyberbullying
 
-## Tools and Technologies
-**Model:** Used linear Support Vector Machine to classify tweets.
-**Streamlit:** Used Streamlit to create simple webapp to make the model interactive.
+## Tools and Technologies  
+**Model:** Used linear Support Vector Machine to classify tweets.  
+**Streamlit:** Used Streamlit to create simple webapp to make the model interactive.  
 
 ## Methodology
 * Downloaded the data from kaggle. [(data)](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
